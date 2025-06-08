@@ -27,4 +27,4 @@ jobs:
         tags: shagun1/week-18-class:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/web-app:latest  # Replace with your Docker Hub username and repository
+      run: docker pull shagun1/week-18-class:latest  # Replace with your Docker Hub username and repository
