@@ -20,6 +20,6 @@ jobs:
 
       - name: Generate prisma client
         run: cd db/packages && npx prisma generate && cd../..
-        
+        # or we can also do by writing that command in json file and its key value as run: npm run key .        
       - name: Run Build
         run: npm run build  #now if this succeeds then you pull request will get a tick 
